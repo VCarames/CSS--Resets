@@ -55,7 +55,14 @@ select {
 
 a,
 button {
+  background: none;
   cursor: pointer;
+
+  @media (hover: hover) {
+    &:is(:hover, :focus, :focus-visible) {
+      transition: 0.8s all;
+    }
+  }
 }
 
 .visually-hidden {
