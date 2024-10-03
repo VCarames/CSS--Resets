@@ -60,6 +60,10 @@ select {
 
 a,
 button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   background: none;
   cursor: pointer;
 
